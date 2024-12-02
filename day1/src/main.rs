@@ -3,7 +3,7 @@ use std::fs;
 use std::io;
 use regex::{Regex, Captures};
 
-const FILE: &str = "/Users/connorbushnell/dev/personal/adventofcode/adventofcode2024/day1/src/index.txt";
+const FILE: &str = "day1/src/index2.txt";
 fn main() {
 
     let items: Vec<String> = read_file_to_vect(FILE);
