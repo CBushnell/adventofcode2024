@@ -1,9 +1,9 @@
 use std::collections::HashMap;
 use std::fs;
 use std::io;
-use regex::{Regex, Captures};
+use regex::Regex;
 
-const FILE: &str = "day1/src/index2.txt";
+const FILE: &str = "./index2.txt";
 fn main() {
 
     let items: Vec<String> = read_file_to_vect(FILE);
